@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+body {
+    background: #f7edf0;
+    background: radial-gradient(circle, rgba(247, 237, 240, 1) 0%, rgba(179, 203, 230, 1) 100%);
+    font-family: sans-serif;
+    opacity: 70%;
+}
+
+button {
+    background: #73d126;
+    background: radial-gradient(circle, rgba(115, 209, 38, 1) 0%, rgba(91, 212, 111, 1) 100%);
+    transition: all 0.3s linear;
+    
+}
+
+button:hover {
+    background: #559620;
+    background: radial-gradient(circle, rgba(85, 150, 32, 1) 0%, rgba(72, 125, 82, 1) 100%);
+    font-size: 24px;
+    font-weight: 600;
+    transform: rotate(360deg) ;
+
+}
